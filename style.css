@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+body {
+  font-family: "Jua", serif;
+  background-image: linear-gradient(skyblue, orange);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+hr {
+  width: 50px;
+  color: black;
+  line-height: 30px;
+}
+img {
+  width: 200px;
+  border-radius: 95px;
+}
+h1 {
+  text-shadow: 2px 2px #f8bbd0;
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+  color: #6a1b9a;
+}
+.menu {
+  z-index: 10px;
+  list-style: none;
+  float: right;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  color: black;
+  display: inline-flex;
+  position: fixed;
+  background-color: white;
+  padding-left: 500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.link {
+  font-size: 20px;
+  margin-right: 50px;
+}
+.link:hover {
+  background-color: yellow;
+}
+section {
+  margin-bottom: 200px;
+}
+.imgofhello:hover{
+  transform: scale(0.9);
+}
+#contact span h1{
+  padding: 25px;
+}
+#contact{
+  text-align: center;
+}
+#cs{
+  text-align: center;
+  background-color: #323332;
+  width: 50%;
+  border-radius: 35px;
+  margin-left: 350px;
+}
+#cs h1{
+  color: #F69355;
+}
+#cs p{
+  color: white;
+}
+#Sumbit{
+  background-color: #FE9657;
+  color: white;
+  width: 80%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: large;
+}
+#email,#name{
+  width: 50%;
+  height: 25px;
+  text-align: center;
+  font-size: medium;
+}
